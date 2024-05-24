@@ -51,7 +51,7 @@ header .nav img {
     background: cornsilk;
     display: flex;
     flex-direction: row;
-    background-image: url('/front-end/img/landing.png');
+    background-image: url('/img/landing.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,7 +161,7 @@ header .nav img {
 
 .main3{
     width: 100%;
-    background-image: url('/front-end/img/section-3.jpeg');
+    background-image: url('/img/section-3.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
