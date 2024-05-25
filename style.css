@@ -160,8 +160,8 @@ header .nav img {
 /* section 3 */
 
 .main3{
+    background-image:url ('section-3.jepg');
     width: 100%;
-    background-image: url('section-3.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
