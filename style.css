@@ -160,8 +160,8 @@ header .nav img {
 /* section 3 */
 
 .main3{
-    background-image: url('section-3.jpeg');
     width: 100%;
+    background-image: url('section-3.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -341,7 +341,7 @@ footer{
     width: 100%;
     padding: 15px;
     height: 200px;
-    background-color: midnightblue;
+    background-color: black;
     color: white;
 
 }
@@ -457,7 +457,9 @@ footer .container .content .third a p {
     text-align: center;
     right: -0.8%;
     top: -1.8%;
+    font-family: "sedan SC";
 }
+
 
 .popup-container{
     width: 80%;
@@ -583,5 +585,18 @@ footer .container .content .third a p {
     footer .container .content{
         display: flex;
         flex-direction: column;
+    }
+    .contact-sec .container{
+        height: 100%;
+    }
+    .popup.active .popup-container .content{
+        flex-direction: column;
+    }
+    .popup.active .popup-container .content .first-side{
+        width: 100%;
+    }
+    .popup.active .popup-container .content .second-side{
+        width: 100%;
+        margin-bottom: 10px;
     }
   }
