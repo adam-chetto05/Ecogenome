@@ -160,6 +160,7 @@ header .nav img {
 /* section 3 */
 
 .main3{
+    background-image: url(section-3.jpeg);
     background-image:url('section-3.jpeg');
     width: 100%;
     background-position: center;
