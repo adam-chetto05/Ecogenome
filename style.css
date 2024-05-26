@@ -612,6 +612,7 @@ footer .container .content .third a p {
         display: flex;
         margin: auto;
         width: 30%;
+        margin-bottom: 10px;
     }
 
 
