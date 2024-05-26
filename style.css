@@ -549,6 +549,7 @@ footer .container .content .third a p {
     font-style: oblique;
 }
 
+
 @media only screen and (max-width: 950px) {
     .main{
         display: block;
@@ -587,6 +588,10 @@ footer .container .content .third a p {
     }
     .contact-sec .container{
         height: 100%;
+    }
+
+    .contact-sec .container .contact-banner{
+        justify-content: center;
     }
 
     .contact-sec .container .contact-banner .first-side{
