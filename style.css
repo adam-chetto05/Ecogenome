@@ -589,6 +589,14 @@ footer .container .content .third a p {
     .contact-sec .container{
         height: 100%;
     }
+
+    .contact-sec .container .contact-banner .first-side{
+        width: 100%;
+    }
+    .contact-sec .container .contact-banner .second-side{
+        width: 100%;
+    }
+
     .popup.active .popup-container .content{
         flex-direction: column;
     }
