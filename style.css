@@ -549,7 +549,6 @@ footer .container .content .third a p {
     font-style: oblique;
 }
 
-
 @media only screen and (max-width: 950px) {
     .main{
         display: block;
@@ -591,11 +590,25 @@ footer .container .content .third a p {
     }
 
     .contact-sec .container .contact-banner .first-side{
+        justify-content: center;
         width: 100%;
     }
     .contact-sec .container .contact-banner .second-side{
         width: 100%;
+        justify-content: center;
+        padding: 0px;
+        display: flex;
     }
+
+    .contact-sec .container .contact-banner .second-side p {
+        width: 100%;
+    }
+    .contact-sec .container .contact-banner .second-side p .btn-1{
+        display: flex;
+        margin: auto;
+        width: 30%;
+    }
+
 
     .popup.active .popup-container .content{
         flex-direction: column;
