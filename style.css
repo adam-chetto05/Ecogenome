@@ -226,6 +226,7 @@ header .nav img {
  .main3 .container .content .card .header h3{
     color: white;
     background: black;
+    border-radius: 75px;
     font-weight: bold;
     padding: 15px;
     font-size: 20px;
