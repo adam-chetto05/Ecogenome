@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1718557631 source:c:\users\adamc\desktop\ecogenome.03\ecogenome\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+
+1718557625 c:\users\adamc\desktop\ecogenome.03\ecogenome\main.h
+
