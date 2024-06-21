@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecogenome</title>
+    <link rel="stylesheet" href="manuel.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1>        <img src="/img/nav logo.jpeg" alt=""> 
+                EcoGenome</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="body">
+
+            <div class="content">
+
+                <div class="first-side">
+                    <h2>Introduction</h2>
+                    <p class="hidden">Bienvenue sur <span>Ecogenome</span>, votre outil de gestion de données génétiques conçu spécialement
+                         pour les chercheurs agricoles. Notre logiciel offre des fonctionnalités essentielles pour
+                          faciliter vos travaux en agronomie et amélioration des plantes. Avec <span>Ecogenome</span>, 
+                          vous pouvez rapidement chercher des génotypes dans notre base de données en utilisant 
+                          des identifiants (ID) ou des informations génétiques (IG). Pour les administrateurs, nous 
+                          proposons un menu spécial permettant d'ajouter de nouveaux génotypes et de gérer les accès
+                           en ajoutant d'autres administrateurs. Simple et efficace, <span>Ecogenome</span> est développé pour 
+                           répondre aux besoins spécifiques des chercheurs dans le domaine de l'agriculture.
+                    </p>
+                </div>
+                <div class="second-side">
+                    <!-- <img src="/img/manuel-logo.jpeg" alt=""> -->
+                    <video autoplay loop muted controls>
+                        <source src="/img/vid-intro.mp4">
+                    </video>
+                </div>
+                
+            </div>
+            
+            <div class="content">
+                
+                <div class="first-side">
+                    <!-- <img src="/img/section-2.png" alt=""> -->
+                    <video controls autoplay muted loop>
+                        <source src="/img/vid-id.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="second-side">
+                    <h2>Recherche Basée sur l'ID</h2>
+                    <p class="hidden">LLa fonction de recherche par ID est un outil puissant d'<span>Ecogenome</span>, conçu pour les chercheurs
+                         agricoles. En entrant l'identifiant unique d'un génotype, le système parcourt rapidement
+                          notre base de données, qu'elle soit locale ou externe. Si le génotype est trouvé, 
+                          <span>Ecogenome</span> affiche toutes les informations associées, offrant une vue complète des 
+                          caractéristiques génétiques et des données expérimentales 
+                          liées à ce génotype spécifique. Cette fonctionnalité permet un accès rapide et précis 
+                          aux données essentielles pour vos recherches. En cas d'ID incorrect ou si le génotype 
+                          n'est pas présent dans notre base, le système vous en informe immédiatement par un 
+                          message clair, vous permettant de vérifier vos données ou d'élargir votre recherche si 
+                          nécessaire. Cette approche efficace assure que vous avez toujours les informations les 
+                          plus précises à portée de main pour vos travaux en amélioration des plantes.</p>
+                </div>
+
+            </div>
+            
+            <div class="content">
+                
+                <div class="first-side">
+                    <h2>Accès rapide aux données génétiques via IG  </h2>
+                    <p class="hidden">La recherche par IG dans <span>Ecogenome</span> offre une fonctionnalité essentielle pour les chercheurs
+                         agricoles. L'IG, ou Identifiant Génotype, est un code universel unique conçu par le CGIAR, 
+                         accessible via leurs bases de données ou celles de l'ICARDA. En utilisant cet identifiant, 
+                         notre système parcourt efficacement les bases de données locales et externes. Lorsqu'un 
+                         génotype correspondant est trouvé, <span>Ecogenome</span> affiche un ensemble complet d'informations 
+                         associées, incluant les caractéristiques génétiques, les données agronomiques et les 
+                         résultats expérimentaux. Cette approche permet aux chercheurs d'accéder rapidement à des 
+                         données cruciales pour leurs travaux d'amélioration des cultures. Si l'IG entré n'est pas 
+                         reconnu ou si le génotype n'est pas présent dans nos bases, le système vous en informe 
+                         clairement, vous permettant de vérifier l'exactitude de l'identifiant ou d'explorer 
+                         d'autres sources de données. Cette fonctionnalité assure une recherche précise et efficace, 
+                         facilitant l'accès aux informations génétiques essentielles pour la recherche agricole.</p>
+                </div>
+                <div class="second-side">
+                     <!-- <img src="/img/section-2.png" alt="">  -->
+                     <video controls autoplay muted loop>
+                        <source src="/img/vid-ig.mp4" type="video/mp4" />
+                    </video>
+                </div>
+
+            </div>
+            
+            <div class="content">
+                
+                <div class="first-side">
+                    <video controls loop muted autoplay>
+                        <source src="/img/vid-admin.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="second-side">
+                    <h2>Contrôle Administratif</h2>
+                    <p class="hidden">Le menu administratif d'<span>Ecogenome</span> offre des fonctionnalités avancées, accessibles après une 
+                        authentification sécurisée. Lorsqu'un utilisateur entre son nom d'utilisateur et son mot de 
+                        passe, le système vérifie ces informations dans la base de données locale ou dans le fichier 
+                        externe Admin.TXT. Une fois authentifié en tant qu'administrateur, l'utilisateur accède à un 
+                        menu spécial avec deux fonctions principales. La première permet d'ajouter un nouvel administrateur, 
+                        dont les informations sont sauvegardées dans le fichier Admin.TXT, assurant ainsi sa reconnaissance 
+                        lors des utilisations futures du logiciel. La seconde fonction permet d'ajouter un nouveau génotype 
+                        à la base de données. L'administrateur entre tous les critères du génotype, à l'exception de l'ID 
+                        qui est automatiquement généré par le système pour éviter les doublons. Avant l'enregistrement final,
+                         <span>Ecogenome</span> affiche un récapitulatif pour confirmation. Si les informations sont correctes, le nouveau 
+                         génotype est sauvegardé dans le fichier Data.txt. En cas d'erreur, l'administrateur peut reprendre la 
+                         procédure sans que les données erronées ne soient enregistrées, garantissant ainsi l'intégrité et la 
+                         précision de la base de données.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="content">
+                <div class="first">
+                    <h3>Ecogenome</h3>
+                    <img src="/img/logo.png" alt="">
+                </div>
+                <div class="second">
+                    <h3>Get in touch</h3>
+                    <a href="mailto:adamchetto05@gmail.com" target="_blank"><img src="/img/002-gmail.png" alt=""></a>
+                    <a href="https://adam-chetto05.github.io/portfolio/" target="_blank"><img src="/img/001-resume.png" alt=""></a>
+                    <a href="https://www.instagram.com/huis_cl0s/" target="_blank"><img src="/img/003-instagram.png" alt=""></a>
+                </div>
+                <div class="third">
+                    <h3>logciel</h3>
+                    <a href=""><p>Donwload link</p></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="script2.js" ></script>
+</body>
+</html>
