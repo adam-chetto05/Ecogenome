@@ -146,6 +146,28 @@ header .nav img {
     text-align: justify;
 }
 
+.main2 .container .content-1 .guide{
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: -8px -8px rgba(0, 0, 0, 0.2);
+}
+
+.main2 .container .content-1 .guide a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main2 .container .content-1 .guide:hover{
+    background-color: black;
+    box-shadow: -10px -10px rgba(1, 63, 250, 0.292);
+}
+
+.main2 .container .content-1 .guide:hover a{
+    color: rgb(255, 253, 253);
+
+}
+
 .main2 .container .content-2{
     width: 40%;
     margin: auto;
