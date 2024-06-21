@@ -223,3 +223,38 @@ footer .container .content .third a p {
     border-radius: 9px;
 
     }
+
+@media only screen and (max-width: 950px){
+    .body{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .container .body .content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid;
+        padding: 12px;
+        box-shadow: -7px -7px rgb(0 0 0 / 30%);
+    }
+    .container .body .content .first-side {
+        width: 100%;
+    }
+    .container .body .content .second-side {
+        width: 100%;
+    }
+    footer {
+        height: auto;
+        padding: 15px;
+    }
+    footer .container .content{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container .content .third {
+        width: 100%;
+    }
+}
