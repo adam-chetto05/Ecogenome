@@ -151,6 +151,7 @@ header .nav img {
     border-radius: 8px;
     text-align: center;
     box-shadow: -8px -8px rgba(0, 0, 0, 0.2);
+    margin-bottom:10px;
 }
 
 .main2 .container .content-1 .guide a{
